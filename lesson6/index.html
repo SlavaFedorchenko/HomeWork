@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="name">Повне ім'я </label>
+      <input placeholder="Повне ім'я" type="text" id="name" />
+      <br />
+      <br />
+
+      <label for="mail">Email</label>
+      <input placeholder="Ваша пошта" type="email" name="mail" id="mail" />
+      <br /><br />
+
+      <label for="password"> Пароль</label>
+      <input
+        placeholder="Напишіть свій пароль тут"
+        type="password"
+        name="password"
+        id="password"
+      />
+      <br />
+      <br />
+
+      <label for="pwd">Пароль ще раз</label>
+      <input
+        placeholder="Введіть пароль ще раз"
+        type="password"
+        id="pwd"
+        name="pwd"
+      />
+      <br />
+      <br />
+
+      <span>Стать</span>
+
+      <input checked type="radio" name="gen" id="male" />
+      <label for="male">Чоловіча</label>
+      <input type="radio" name="gen" id="female" />
+      <label for="female">Жіноча</label>
+      <br />
+      <br />
+
+      <label for="age">Вік</label>
+      <input type="number" name="age" id="age" />
+      <br />
+      <br />
+
+      <label for="Cours">Курс</label>
+      <select name="Cours" id="Cours">
+        <option value="Виберіть курс">"Виберіть курс"</option>
+        <option value="front-end">front-end</option>
+        <option value="back-end">back-end</option>
+        <option value="QA Manual">QA Manual</option>
+        <option value="HR">HR</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="adress">Повна адреса</label>
+      <textarea
+        placeholder="Країна,регіон,місто/ селище,вулиця"
+        name="adress"
+        id="adress"
+        cols="30"
+        rows="4"
+      ></textarea>
+      <br />
+      <br />
+
+      <input type="checkbox" name="agre" id="agre" />
+      <label for="agre"> Я погоджуюсь з обробкою персональних даних</label>
+
+      <br />
+      <br />
+
+      <input type="reset" value="Очистити форму" />
+      <input type="submit" value="Зареєструватися" />
+    </form>
+  </body>
+</html>
