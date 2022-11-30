@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+* {
+    transition: all .1s ease-in;
+}
+
+#in-head{
+    width: 100%;
+    height: 82px;
+    text-align: center;
+    background: #4A4F56;
+    color: #FF8984;
+    /* line-height: 82px; */
+}
+#first-line{
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+align-items: center;
+padding-top: 19px;
+}
+#second-line{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+align-items: center;
+}
+#main-chapter{
+    width: 100%;
+    height: 100%; 
+    text-align: left;
+    background: #3B3F45;
+    color: #FFFFFF;
+    
+}
+
+ #first-in-main,    #third-in-main , #fifth-in-main{
+    width: 534px;
+    height: 45px;
+    align-items: center;
+    background: #88839E;
+    border: 1px solid silver;
+    position: relative;
+    right: -500px;
+    
+}
+
+#second-in-main, #six-in-main{
+    width: 534px;
+    height: 45px;
+    align-items: center;
+    background: #7A7593;
+    border: 1px solid silver;
+    position: relative;
+    right: -500px;
+    
+}
+#fourth-in-main{
+    width: 534px;
+    height: 45px;
+    align-items: center;
+    background: #625E77;
+    position: relative;
+    right: -500px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+}
+#foot{
+    width: 100%;
+        height: 100%;
+        text-align: center;
+        background: #3B3F45;
+        color: #FFFFFF;
+
+}
+#but{
+    width: 534px;
+    height: 45px;
+    background: #4A4F56;
+    color: #FF8984;
+    margin:45px 57px;
+    text-align: center;
+
+}
+
+ #in-first, #in-second, #in-third, #in-fourth, #in-six {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 400;   
+}
+
+/* after */
+#in-first::after{
+    content: ")";
+}
+#in-second::after {
+    content: ")";
+}
+#in-third::after {
+    content: ")";
+}
+#in-fourth::after {
+    content: ")";
+}
+#in-six::after {
+    content: ")";
+}
+/* before */
+#in-first::before {
+    content: "(";
+}
+#in-second::before {
+    content: "(";
+}
+#in-third::before {
+    content: "(";
+}
+#in-fourth::before {
+    content: "(";
+}
+#in-six::before {
+    content: "(";
+}
+
+#first-in-main :checked+label>span {
+    text-decoration: line-through;
+}
+
+#second-in-main :checked+label>span{
+    text-decoration: line-through;
+}
+#third-in-main :checked+label>span {
+    text-decoration: line-through;
+}
+#fourth-in-main :checked+label>span {
+    text-decoration: line-through;
+}
+#fifth-in-main :checked+label>span {
+    text-decoration: line-through;
+}
+#six-in-main :checked+label>span {
+    text-decoration: line-through;
+}
