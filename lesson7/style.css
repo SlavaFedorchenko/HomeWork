@@ -1,0 +1,72 @@
+.header{
+   
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 120px;
+        isolation: isolate;
+}
+ul{
+    text-align: center;
+}
+li{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+    font-size: small;
+}
+a{
+    text-decoration: none;
+    color: #828282;
+}
+#name{
+    color: #070707;
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+    
+}
+#photo{
+    width: 970px;
+    height: 387px;
+
+}
+#aboutMe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 970px;
+    height: 500px;
+    left: 235px;
+    top: 589px;
+    background-color: #F6F6F6;
+    
+}
+#skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 970px;
+    height: 230px;
+}
+.product img {
+   padding-inline: 20px;
+}
+
+
+#contacts{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+#last img{
+    padding-inline: 20px;
+}
+
