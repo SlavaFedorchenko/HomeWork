@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 2375px;
+    width: 1440px;
+    left: 3798px;
+    top: 1030px;
+    
+
+}
+.head{
+    /* position: absolute;
+    width: 100%;
+    height: 80px; */
+    position: absolute;
+        width: 1440px;
+        height: 80px;
+}
+.container{
+    position: absolute;
+    width: 1200px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 13px;
+    height: 54px;
+}
+
+.logo{
+    position: absolute;
+    width: 238px;
+    height: 54px;
+    margin-left: 912px;
+    margin-right: 120px;    
+}
+
+.nav{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 220px;
+    
+}
+
+.eng{
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 120px;
+    bottom: 55%;
+}
+
+.eng{
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+.first-word,.slah, .second-word{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;  
+    letter-spacing: 0.03em;
+}
+
+.main-text{
+    /* width: 1200px;
+    height: 2500px; */
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 120px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.chapter-one{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 40px;
+    margin-bottom: 70px;
+    margin-top: 150px;
+
+    width: 1200px;
+    height: 221px;
+}
+
+.title, .title-second, .title-three, .title-four{
+    display: flex;
+    flex-direction: row;
+
+}
+.intro-one, .intro-two, .intro-three, .intro-four{
+    font-family: 'Francois One';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        text-transform: uppercase;
+    
+}
+
+.chap-one, .chap-two, .chap-three, .chap-four{
+
+
+font-family: 'Farro';
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    
+}
+
+.text-chapter-one, .text-chapter-two, .text-chapter-three, .text-chapter-four            {
+
+font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.first-underline{
+    text-decoration: underline;
+}
+
+.chapter-two{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        margin-bottom: 70px;
+
+}
+
+
+.chapter-three{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 70px;
+    gap: 40px;
+
+}
+
+.in-chapter-three{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.first-three, .second-three, .third-three, .fours-three, .five-three{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.first-three{
+    width: 1200px;
+    height: 39px;
+}
+
+.second-three{
+    width: 1200px;
+    height: 86px;
+}
+.third-three{
+    width: 1200px;
+    height: 96px;
+}
+.fours-three{
+    width: 1200px;
+
+    
+}
+
+.five-three{
+    width: 1200px;
+    height: 134px;
+}
+
+.back{
+    background: #DADADA;
+    width: 407px;
+    height: 48px;
+}
+
+.just-text{
+    font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 48px;
+        padding-bottom: 20px;
+}
+
+.chapter-four{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        
+        width: 1200px;
+        height: 393px;
+
+}
