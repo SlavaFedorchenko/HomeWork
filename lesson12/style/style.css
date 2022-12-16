@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    /* position: relative; */
+    /* width: 1440px;
+    height: 5565px; */
+    width: 100%;
+    height: 5565px;
+    background-color: #fff;
+    
+            /* max-width: 1440px;
+            margin-left: auto;
+            margin-right: auto; */
+        
+    
+
+}
+
+.first-line {
+    text-align: center;
+    width: 644px;
+    height: 45px;
+
+    font-family: 'Delius Unicase';  
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: black;
+
+    margin: 120px 399px 80px 397px  ;
+}
+
+.galary-one{
+    display: grid;
+    justify-items: center;
+    width: 1170px;
+    height: 1170px;
+    margin-left: 135px;
+    margin-right: 135px;
+    grid-template-areas: " cities-item1 cities-item2 cities-item2"
+                         " cities-item3 cities-item3 cities-item4"
+                         " cities-item5 cities-item6 cities-item6";
+}
+.cities-item1 {
+    grid-area: cities-item1;
+}
+.cities-item2{
+    grid-area: cities-item2;
+}
+.cities-item3{
+    grid-area: cities-item3;
+}
+.cities-item4{
+    grid-area: cities-item4;
+}
+.cities-item5{
+    grid-area: cities-item5;
+}
+.cities-item6{
+    grid-area: cities-item6;
+}
+
+
+.second-line{
+    text-align: center;
+    width: 531px;
+    height: 45px;
+
+    font-family: 'Delius Unicase';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: black;
+
+    margin: 120px 455px 80px 454px;
+    
+
+    
+}
+.galary-two{
+    display: grid;
+    justify-items: center;
+    width: 1170px;
+    height: 1570px;
+    margin-left: 135px;
+    margin-right: 135px;
+
+    grid-template-areas: " nature-items1 nature-items2 nature-items2 "
+                         " nature-items3 nature-items3 nature-items4 "
+                         " nature-items3 nature-items3 nature-items4 "
+                         " nature-items5 nature-items5 nature-items6 ";
+
+}
+
+.nature-items1{
+    grid-area: nature-items1;
+}
+.nature-items2 {
+    grid-area: nature-items2;
+}
+.nature-items3 {
+    grid-area: nature-items3;
+}
+.nature-items4 {
+    grid-area: nature-items4;
+}
+.nature-items5 {
+    grid-area: nature-items5;
+}
+.nature-items6 {
+    grid-area: nature-items6;
+}
+
+
+.third-line{
+    text-align: center;
+    width: 814px;
+    height: 45px;
+
+    font-family: 'Delius Unicase';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: black;
+    
+    margin: 120px 312px 80px 314px;
+
+}
+
+.galary-three{
+    display: grid;
+    justify-items: center;
+    width: 1170px;
+    height: 1970px;
+    margin-left: 135px;
+    margin-right: 135px;
+
+    grid-template-areas: " people-items1 people-items2 people-items3"
+                             " people-items4 people-items2 people-items10"
+                             " people-items5 people-items6 people-items10"
+                             " people-items5 people-items7 people-items7 "
+                             " people-items8 people-items8 people-items9 ";
+
+}
+
+.people-items1{
+    grid-area: people-items1;
+}
+.people-items2 {
+    grid-area: people-items2;
+}
+.people-items3 {
+    grid-area: people-items3;
+}
+.people-items4 {
+    grid-area: people-items4;
+}
+.people-items5 {
+    grid-area: people-items5;
+}
+.people-items6 {
+    grid-area: people-items6;
+}
+.people-items7 {
+    grid-area: people-items7;
+}
+.people-items8 {
+    grid-area: people-items8;
+}
+.people-items9 {
+    grid-area: people-items9;
+}
+.people-items10 {
+    grid-area: people-items10;
+}
